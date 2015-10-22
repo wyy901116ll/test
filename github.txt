@@ -1,0 +1,23 @@
+# github使用简介：
+
+太详细的，我也不晓得。
+假如服务器创建了一个仓库http://git.abc.com/aaa.git
+客户端的话，一开始就这几个步骤，windows在doc下敲命令：
+1.  git clone http://git.abc.com/aaa.git
+在外层使用，不用新建目录，他会自动创建aaa目录
+2. cd aaa
+3. git checkout -b "本地分支名"
+获取远程master分支到本地创建一个 "本地分支名"
+
+从此以后，就是本地操作自己的分支。我有IDE工具自动集成了commit和push，就不用敲命令了。
+
+
+如果没有IDE，常用操作就是：
+git add .      往本地库添加所有新增文件
+git commit -m '备注文字'       提交到本地库
+git push   推到git服务器
+
+另外一个比较重要的就是拉别人的东西
+ git pull origin 别人的分支名
+ 
+服务器端，最好是安装gitlab，就更直观了。
