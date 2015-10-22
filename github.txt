@@ -11,6 +11,12 @@
 
 从此以后，就是本地操作自己的分支。我有IDE工具自动集成了commit和push，就不用敲命令了。
 
+4. 常用命令还有：
+	git log --pretty=oneline
+	git reflog
+	git status
+	git --help
+
 
 如果没有IDE，常用操作就是：
 git add .      往本地库添加所有新增文件
