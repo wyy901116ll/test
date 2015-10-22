@@ -17,6 +17,12 @@
 	git status
 	git --help
 
+5. 如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器
+	git remote add origin <server>
+
+6. 分支是用来将特性开发绝缘开来的
+	
+
 
 如果没有IDE，常用操作就是：
 git add .      往本地库添加所有新增文件
